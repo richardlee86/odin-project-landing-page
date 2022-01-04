@@ -8,3 +8,73 @@
     /*Font specified by designer*/
     font-family: 'Roboto', sans-serif;   
 }
+/*Some styling on the body and container to fill the screen*/
+body {
+    height: 100vh;  
+    width: 100%;  
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+/*Header (nav) styling*/
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: var(--dark-gray);
+}
+.header-1 {
+    color: var(--main-text);    
+    font-size: 1.2rem;
+    margin-left: 2%;
+    width: 60%;
+}
+
+.header-2 {
+    width: 40%;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10%; 
+    padding-left: 30%;   
+}
+a {
+    text-decoration: none;
+    color: var(--main-text);
+}
+
+/*Main Content styling*/
+main {
+    background-color: var(--dark-gray);
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;
+}
+.main-1{
+    width: 30%;
+    color: var(--main-text);
+}
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.main-para {
+    color: var(--secondary-text);
+}
+.main-2{
+
+}
+
+img {
+    width: 600px;
+    height: 300px;
+}
