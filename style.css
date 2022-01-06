@@ -98,11 +98,11 @@ img {
 /*Styling for random information section*/
 .card-section {
     width: 100%;
-
+    padding: 5% 0;
 }
 .card-container {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     gap: 3rem;
     width: 100%;
 }
@@ -115,7 +115,7 @@ h3 {
 }
 
 .card {
-    border: 2px solid var(--button-blue);
+    border: 4px solid var(--button-blue);
     width: 10rem;
     height: 10rem;
     border-bottom-left-radius: 10px;
@@ -138,5 +138,75 @@ h3 {
 
 /*Styling for the quote section*/
 .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 0;
     background-color: var(--secondary-text);
+    height: 336px;
+    font-size: 36px;
+    font-style: italic;
+    color: var(--dark-gray);    
 }
+
+.quote-paragraph {
+    padding: 0 28%;
+    margin-bottom: 0;
+}
+h4 {
+    margin-left: 53%;
+    font-style: normal;
+}
+
+/*Styling for the sign up section*/
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 336px;
+}
+.form {
+    background-color: var(--button-blue);    
+    display: flex;    
+    justify-content: space-around;  
+    width: 60%;  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.form-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+    color: var(--main-text);
+}
+.form-h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.form-paragraph {
+    padding: 0;
+    margin: 0.2rem 0 0 0;
+}
+.form-2 {
+    display: flex;    
+    align-items: center;        
+}
+.form  button {
+    border: 1px solid var(--main-text);
+    font-size: 1.2rem;
+
+}
+
+/*Styling for the Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-gray);
+    color: var(--secondary-text);
+    height: 100px;
+
+}
+
